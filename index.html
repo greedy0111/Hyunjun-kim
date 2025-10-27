@@ -1,63 +1,38 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <title>김현준 | 웹 포트폴리오</title>
-    <meta name="robots" content="noindex, nofollow">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="김현준 | 웹 포트폴리오" />
-    <meta
-      property="og:description"
-      content="UXUI 웹 퍼블리셔 김현준의 웹 포트폴리오 입니다."
-    />
-    <meta property="og:site_name" content="김현준 | 웹 포트폴리" />
-    <!-- <meta
+    <head>
+        <meta charset="UTF-8" />
+        <title>김현준 | 웹 포트폴리오</title>
+        <meta name="robots" content="noindex, nofollow" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="김현준 | 웹 포트폴리오" />
+        <meta property="og:description" content="UXUI 웹 퍼블리셔 김현준의 웹 포트폴리오 입니다." />
+        <meta property="og:site_name" content="김현준 | 웹 포트폴리" />
+        <!-- <meta
       name="keywords"
       charset="utf-8"
       content="웹 퍼블리셔, 김현준, 웹 퍼블리셔 포트폴리, 경력 웹 퍼블리셔, 웹 포트폴리오"
     /> -->
-    <meta property="og:image" content="img/share.jpg?1" />
-    <meta property="og:url" content="Hyunjun-kim.com" />
+        <meta property="og:image" content="img/share.jpg?1" />
+        <meta property="og:url" content="Hyunjun-kim.com" />
 
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="images/favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="images/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="images/favicon/favicon-16x16.png"
-    />
+        <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png" />
 
-    <link
-      rel="stylesheet"
-      as="style"
-      crossorigin
-      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/common.css" />
-    <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/common.css" />
+        <link rel="stylesheet" href="css/style.css" />
 
-    <script
-      src="https://kit.fontawesome.com/22ecdadb1a.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://kit.fontawesome.com/22ecdadb1a.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <!-- Google tag (gtag.js) -->
-    <!-- <script
+        <!-- Google tag (gtag.js) -->
+        <!-- <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-06EQPZ33DV"
     ></script>
@@ -70,466 +45,337 @@
 
       gtag("config", "G-06EQPZ33DV");
     </script> -->
-  </head>
-  <body>
-    <div class="wrap">
-      <header>
-        <div class="header__wrap header__inner">
-          <nav class="flex">
-            <div class="header__logo">
-              <h1><a href="">Hyunjun's Web Portfolio</a></h1>
-            </div>
-            <ul class="nav__ul">
-              <li>
-                <a
-                  href="javascript:0;"
-                  class="a_link"
-                  onclick="scrollIntoStart('about')"
-                  >ABOUT ME</a
-                >
-              </li>
-              <li>
-                <a
-                  href="javascript:0;"
-                  class="a_link"
-                  onclick="scrollIntoStart('work')"
-                  >WORK</a
-                >
-              </li>
-              <li>
-                <a
-                  href="javascript:0;"
-                  class="a_link"
-                  onclick="scrollIntoStart('project')"
-                  >PROJECT</a
-                >
-              </li>
-              <li>
-                <a
-                  href="javascript:0;"
-                  class="a_link"
-                  onclick="scrollIntoStart('contact')"
-                  >CONTACT</a
-                >
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-      <section id="main" class="main__wrap">
-        <div class="blur"></div>
-        <div class="blur"></div>
-        <div class="blur"></div>
-        <h1 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
-          Hyunjun'S<br />PORTFOLIO
-        </h1>
-        <p data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
-          안녕하세요. 저는 8년 차 웹 퍼블리셔
-          김현준입니다.<br />
-          다양한 포트폴리오 경험을 바탕으로 협업을 통해 프로젝트를 진행하고, 요구 사항에 대해 적극적으로 임하여 일을 하고 있습니다.<br />
-          UI/UX에 대한 이해를 기반으로, 효율적이고 유지 보수가 용이한 마크업 구조를 설계하며,
-          트렌드 변화에 맞춰 새로운 기술을 빠르게 습득하고 실무에 적용하는 것을 좋아합니다.<br />
-          디자이너와 개발자 간의 원활한 커뮤니케이션을 통해 완성도 높은 결과물을 만드는 것을 목표로 하고 있습니다.<br />
-          작은 디테일에서도 사용자 경험을 개선할 수 있는 퍼블리셔가 되기 위해 늘 고민하고 있습니다.
-        </p>
-      </section>
-      <section id="about" class="about__wrap">
-        <div class="about__inner">
-          <h2 data-aos="fade-in">ABOUT ME</h2>
-          <div class="about__box container-md mb80">
-            <div class="img__box">
-              <img
-                class="img__emoji"
-                src="images/about/about_emoji.svg"
-                alt="Hyunjun"
-                data-aos="fade-right"
-                data-aos-easing="linear"
-                data-aos-duration="500"
-              />
-            </div>
-            <div class="about__txt__box">
-              <div
-                class="about__txt"
-                data-aos="flip-right"
-                data-aos-easing="linear"
-                data-aos-duration="500"
-              >
-                <h3 class="signature">
-                  <span class="hidden">Hyunjun kim</span>
-                </h3>
-                <p>안녕하세요 8년 차 웹 퍼블리셔 김현준입니다.</p>
-                <p>
-                  HTML, CSS, JavaScript, Photoshop등 다양한 툴을 활용하여 웹사이트의
-                  레이아웃과 디자인을 구성하고, 웹 표준과 웹 접근성을 준수하여
-                  웹사이트를 제작하고 다양한 플렛폼에서 이용할 수 있도록 합니다.
+    </head>
+    <body>
+        <div class="wrap">
+            <header>
+                <div class="header__wrap header__inner">
+                    <nav class="flex">
+                        <div class="header__logo">
+                            <h1><a href="">Hyunjun's Web Portfolio</a></h1>
+                        </div>
+                        <ul class="nav__ul">
+                            <li>
+                                <a href="javascript:0;" class="a_link" onclick="scrollIntoStart('about')">ABOUT ME</a>
+                            </li>
+                            <li>
+                                <a href="javascript:0;" class="a_link" onclick="scrollIntoStart('work')">WORK</a>
+                            </li>
+                            <li>
+                                <a href="javascript:0;" class="a_link" onclick="scrollIntoStart('project')">PROJECT</a>
+                            </li>
+                            <li>
+                                <a href="javascript:0;" class="a_link" onclick="scrollIntoStart('contact')">CONTACT</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <section id="main" class="main__wrap">
+                <div class="blur"></div>
+                <div class="blur"></div>
+                <div class="blur"></div>
+                <h1 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">Hyunjun'S<br />PORTFOLIO</h1>
+                <p data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
+                    안녕하세요. 저는 8년 차 웹 퍼블리셔 김현준입니다.<br />
+                    다양한 포트폴리오 경험을 바탕으로 협업을 통해 프로젝트를 진행하고, 요구 사항에 대해 적극적으로 임하여 일을 하고 있습니다.<br />
+                    UI/UX에 대한 이해를 기반으로, 효율적이고 유지 보수가 용이한 마크업 구조를 설계하며, 트렌드 변화에 맞춰 새로운 기술을 빠르게 습득하고 실무에 적용하는 것을 좋아합니다.<br />
+                    디자이너와 개발자 간의 원활한 커뮤니케이션을 통해 완성도 높은 결과물을 만드는 것을 목표로 하고 있습니다.<br />
+                    작은 디테일에서도 사용자 경험을 개선할 수 있는 퍼블리셔가 되기 위해 늘 고민하고 있습니다.
                 </p>
-                <p>
-                  다양한 SI, SM 관련 프로젝트를 통해 디자이너, 기획자 및 개발자와의 커뮤니케이션의 중요성을 알고 있으며,
-                  서비스 운영에 대해 적극적인 자세로 임하고 있습니다.
-                </p>
-                <p>새로운 것을 배우는 것 또한 늘 환영합니다</p>
-                <p class="mb40">
-                  맡은 일에 애정을 가지고 책임감 있게 업무를 수행합니다.<br />
-                  주어진 역할에서 가치를 창출하며, 제 역량을 충분히 발휘하고자
-                  합니다.
-                </p>
-                <a
-                  href="https://www.notion.so/28fd37e7373c8051be94eeb6a352b5d7"
-                  class="shortcut__arrow"
-                  target="_blank"
-                  >자기소개 더보기
-                  <i class="fa-solid fa-circle-chevron-right"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="about__box container-md career">
-            <div class="" data-aos="fade-up" data-aos-duration="500">
-              <h3>WORK EXPERIENCE</h3>
-              <ul class="about__txt">
-                <li>2023.01 - 2025.07 (주)지엠솔루션</li>
-                <li>2021.06 - 2022.12 (주)지엠솔루션</li>
-                <li>2017.11 - 2020.11 (주)네오비</li>
-              </ul>
-            </div>
-            <div class="" data-aos="fade-up" data-aos-duration="500">
-              <h3>EDUCATION</h3>
-              <ul class="about__txt">
-                <li>2019.02 - 2019.05 웹퍼블리셔 중급자 양성과정 수료 - Fastcampus</li>
-                <li>2017.02 - 2017.08 스마트기기 UX/UI 컨버전스(퍼블리셔 양성과정) 수료 - 그린컴퓨터아카데미
-                </li>
-                <li>2014.03 - 2014.02 대구대학교 회계학과 졸업</li>
-              </ul>
-            </div>
-          </div>
+            </section>
+            <section id="about" class="about__wrap">
+                <div class="about__inner">
+                    <h2 data-aos="fade-in">ABOUT ME</h2>
+                    <div class="about__box container-md mb80">
+                        <div class="img__box">
+                            <img class="img__emoji" src="images/about/about_emoji.svg" alt="Hyunjun" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500" />
+                        </div>
+                        <div class="about__txt__box">
+                            <div class="about__txt" data-aos="flip-right" data-aos-easing="linear" data-aos-duration="500">
+                                <h3 class="signature">
+                                    <span class="hidden">Hyunjun kim</span>
+                                </h3>
+                                <p>안녕하세요 8년 차 웹 퍼블리셔 김현준입니다.</p>
+                                <p>HTML, CSS, JavaScript, Photoshop등 다양한 툴을 활용하여 웹사이트의 레이아웃과 디자인을 구성하고, 웹 표준과 웹 접근성을 준수하여 웹사이트를 제작하고 다양한 플렛폼에서 이용할 수 있도록 합니다.</p>
+                                <p>다양한 SI, SM 관련 프로젝트를 통해 디자이너, 기획자 및 개발자와의 커뮤니케이션의 중요성을 알고 있으며, 서비스 운영에 대해 적극적인 자세로 임하고 있습니다.</p>
+                                <p>새로운 것을 배우는 것 또한 늘 환영합니다</p>
+                                <p class="mb40">
+                                    맡은 일에 애정을 가지고 책임감 있게 업무를 수행합니다.<br />
+                                    주어진 역할에서 가치를 창출하며, 제 역량을 충분히 발휘하고자 합니다.
+                                </p>
+                                <a href="https://www.notion.so/28fd37e7373c8051be94eeb6a352b5d7" class="shortcut__arrow" target="_blank">자기소개 더보기 <i class="fa-solid fa-circle-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about__box container-md career">
+                        <div class="" data-aos="fade-up" data-aos-duration="500">
+                            <h3>WORK EXPERIENCE</h3>
+                            <ul class="about__txt">
+                                <li>2023.01 - 2025.07 (주)지엠솔루션</li>
+                                <li>2021.06 - 2022.12 (주)지엠솔루션</li>
+                                <li>2017.11 - 2020.11 (주)네오비</li>
+                            </ul>
+                        </div>
+                        <div class="" data-aos="fade-up" data-aos-duration="500">
+                            <h3>EDUCATION</h3>
+                            <ul class="about__txt">
+                                <li>2019.02 - 2019.05 웹퍼블리셔 중급자 양성과정 수료 - Fastcampus</li>
+                                <li>2017.02 - 2017.08 스마트기기 UX/UI 컨버전스(퍼블리셔 양성과정) 수료 - 그린컴퓨터아카데미</li>
+                                <li>2014.03 - 2014.02 대구대학교 회계학과 졸업</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="marquee">
+                    <div class="marquee__group">
+                        <img src="images/about/about_img_01.svg" alt="HTML" />
+                        <img src="images/about/about_img_02.svg" alt="CSS" />
+                        <img src="images/about/about_img_03.svg" alt="Javascript" />
+                        <img src="images/about/about_img_04.svg" alt="FIGMA" />
+                        <img src="images/about/about_img_05.svg" alt="Bootstrap" />
+                        <img src="images/about/about_img_06.svg" alt="Photoshop" />
+                        <img src="images/about/about_img_07.svg" alt="Illustrator" />
+                        <img src="images/about/about_img_08.svg" alt="Adobe XD" />
+                        <img src="images/about/about_img_09.svg" alt="jQuery" />
+                    </div>
+                    <div class="marquee__group">
+                        <img src="images/about/about_img_01.svg" alt="HTML" />
+                        <img src="images/about/about_img_02.svg" alt="CSS" />
+                        <img src="images/about/about_img_03.svg" alt="Javascript" />
+                        <img src="images/about/about_img_04.svg" alt="FIGMA" />
+                        <img src="images/about/about_img_05.svg" alt="Bootstrap" />
+                        <img src="images/about/about_img_06.svg" alt="Photoshop" />
+                        <img src="images/about/about_img_07.svg" alt="Illustrator" />
+                        <img src="images/about/about_img_08.svg" alt="Adobe XD" />
+                        <img src="images/about/about_img_09.svg" alt="jQuery" />
+                    </div>
+                </div>
+            </section>
+            <section id="work" class="work__wrap">
+                <div class="work__inner">
+                    <h2 data-aos="fade-in">WORK</h2>
+                    <div class="">
+                        <ul class="work__list">
+                            <li>
+                                <a href="https://www.notion.so/LG-291d37e7373c80778f84e70d42a1ff97?source=copy_link" target="_blank">
+                                    <img src="images/work/work_lg_membership.png" alt="LG전자멤버쉽 App 리뉴얼" />
+                                </a>
+                                <div class="work__txt">
+                                    <h5>LG전자멤버쉽 App 리뉴얼</h5>
+                                    <p>Web | 퍼블리싱 · JSP · 반응형</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="https://www.notion.so/LG-291d37e7373c8046a76fe031e5b33c2c?source=copy_link" target="_blank">
+                                    <img src="images/work/work_lg_benefit.png" alt="LG전자 이벤트 리뉴얼" />
+                                </a>
+                                <div class="work__txt">
+                                    <h5>LG전자 이벤트 페이지 리뉴얼</h5>
+                                    <p>Web | 퍼블리싱 · JSP · 반응형</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="https://www.notion.so/2023-291d37e7373c8169aa1fc80a87896223?source=copy_link" target="_blank">
+                                    <img src="images/work/work_imokorea.png" alt="회사 홈페이지 리뉴얼" />
+                                </a>
+                                <div class="work__txt">
+                                    <h5>아이엠오 기업 홈페이지 리뉴얼</h5>
+                                    <p>Web | 퍼블리싱 · 반응형</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="https://www.notion.so/291d37e7373c81a9817eca91278d946a?source=copy_link" target="_blank">
+                                    <img src="images/work/work_kko.png" alt="대시보드 관리자 페이지" />
+                                </a>
+                                <div class="work__txt">
+                                    <h5>카카오톡 관리자 센터</h5>
+                                    <p>Web | 퍼블리싱 · 대시보드 · Semantic-UI</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="https://www.notion.so/SOC-291d37e7373c810dbc60dae2ac937a94?source=copy_link" target="_blank">
+                                    <img src="images/work/work_soc.png" alt="대시보드 모니터링 사이트" />
+                                </a>
+                                <div class="work__txt">
+                                    <h5>SOC 관련 시설물 모니터링</h5>
+                                    <p>Web | 디자인 · 퍼블리싱 · 대시보드 · Bootstrap</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="https://www.notion.so/2020-28fd37e7373c8127b5a3c0d97c11cfc0?source=copy_link" target="_blank">
+                                    <img src="images/work/work_mirae.png" alt="회사 홈페이지" />
+                                </a>
+                                <div class="work__txt">
+                                    <h5>미래시티 기업 홈페이지 리뉴얼</h5>
+                                    <p>Web | 디자인 · 퍼블리싱 · 풀페이지 · 반응형</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="https://www.notion.so/SH-28fd37e7373c81ba9607d8f7628a4365?source=copy_link" target="_blank">
+                                    <img src="images/work/work_SH.png" alt="SH 서울주택도시 모니터링 사이트" />
+                                </a>
+                                <div class="work__txt">
+                                    <h5>SH 서울주택도시공사</h5>
+                                    <p>Web | 디자인 · 퍼블리싱 · 대시보드 · 풀페이지 · 반응형 · Bootstrap</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="project" class="project_wrap">
+                <div class="projet__inner">
+                    <h2 data-aos="fade-in">PROJECT</h2>
+                    <div class="">
+                        <ul class="projet__list">
+                            <li data-aos="fade-up">
+                                <a href="https://www.notion.so/3D-PANORAMA-28fd37e7373c8141b5cbdec5ac526d89?source=copy_link" data-img="#img6" target="_blank">
+                                    <figure class="img__box">
+                                        <img src="images/project/project_6.png" alt="PANORAMA" />
+                                    </figure>
+                                    <div class="projet__text">
+                                        <h5>PANORAMA(3D)</h5>
+                                        <p class="hash">
+                                            <span>#3D</span>
+                                            <span>#CSS</span>
+                                            <span>#JS</span>
+                                            <span>#인터랙티브</span>
+                                        </p>
+                                        <p class="desc">2024</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li data-aos="fade-up">
+                                <a href="https://www.notion.so/MUSIC-PLAYER-28fd37e7373c81c5aacaeb5aaaf08868?source=copy_link" data-img="#img5" target="_blank">
+                                    <figure class="img__box">
+                                        <img src="images/project/project_5.png" alt="MUSIC PLAYER" />
+                                    </figure>
+                                    <div class="projet__text">
+                                        <h5>MUSIC PLAYER</h5>
+                                        <p class="hash">
+                                            <span>#3D</span>
+                                            <span>#CSS</span>
+                                            <span>#JS</span>
+                                            <span>#인터랙티브</span>
+                                        </p>
+                                        <p class="desc">2024</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li data-aos="fade-up">
+                                <a href="https://www.notion.so/SORO-GSAP-28fd37e7373c818baef8e569864cd5f8?source=copy_link" data-img="#img4" target="_blank">
+                                    <figure class="img__box">
+                                        <img src="images/project/project_4.png" alt="SORO" />
+                                    </figure>
+                                    <div class="projet__text">
+                                        <h5>SORO</h5>
+                                        <p class="hash">
+                                            <span>#GSAP</span>
+                                            <span>#Clone</span>
+                                            <span>#인터랙티브</span>
+                                            <span>#반응형</span>
+                                        </p>
+                                        <p class="desc">2024</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li data-aos="fade-up">
+                                <a href="https://www.notion.so/Qude-GSAP-28fd37e7373c8117a8d4d8e4084320c6?source=copy_link" data-img="#img3" target="_blank">
+                                    <figure class="img__box">
+                                        <img src="images/project/project_3.png" alt="Qude" />
+                                    </figure>
+                                    <div class="projet__text">
+                                        <h5>Qude</h5>
+                                        <p class="hash">
+                                            <span>#GSAP</span>
+                                            <span>#Clone</span>
+                                            <span>#인터랙션</span>
+                                        </p>
+                                        <p class="desc">2024</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li data-aos="fade-up">
+                                <a href="https://www.notion.so/K-ACE-LAB-28fd37e7373c812faf46d40291335927?source=copy_link" data-img="#img2" target="_blank">
+                                    <figure class="img__box">
+                                        <img src="images/project/project_2.png" alt="K.ACE LAB" />
+                                    </figure>
+                                    <div class="projet__text">
+                                        <h5>K.ACE LAB</h5>
+                                        <p class="hash">
+                                            <span>#SCSS</span>
+                                            <span>#GSAP</span>
+                                            <span>#Clone</span>
+                                            <span>#반응형</span>
+                                        </p>
+                                        <p class="desc">2024</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="contact" class="footer__wrap">
+                <footer class="contact__center">
+                    <div class="footer__inner">
+                        <div class="contact__txt_1">
+                            <p data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">함께 일할 웹 퍼블리셔를 찾고 계신가요?</p>
+                        </div>
+                        <div class="contact">
+                            <p class="word">greedy0111@naver.com</p>
+                        </div>
+                        <div class="contact__txt_2" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+                            <p class="mb20">
+                                저에게 궁금한 점이 있으시다면 연락해 주세요.
+                                <br class="m-block" />
+                                빠르게 답장 드리겠습니다!
+                            </p>
+                            <a href="mailto:greedy0111@naver.com" class="shortcut__arrow">메일보내기 <i class="fa-solid fa-circle-chevron-right"></i></a>
+                        </div>
+                        <div class="copyright">
+                            <p class="copyright__txt">
+                                Made by
+                                <span class="copyright__author">Hyunjun-kim</span>
+                                with © 2025 greedy0111.github.io/Hyumjun-Kim
+                            </p>
+                            <ul class="link__box">
+                                <li>
+                                    <a href="https://www.notion.so/28fd37e7373c8051be94eeb6a352b5d7?source=copy_link" target="_blank">RESUME</a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/greedy0111" target="_blank">GITHUB</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </footer>
+            </section>
+            <a class="return-top" href="javascript:;" onclick="scrollIntoStart('main')"><span class="hidden">RETURN TOP</span><i class="fa-solid fa-arrow-up-long"></i></a>
         </div>
-        <div class="marquee">
-          <div class="marquee__group">
-            <img src="images/about/about_img_01.svg" alt="HTML" />
-            <img src="images/about/about_img_02.svg" alt="CSS" />
-            <img src="images/about/about_img_03.svg" alt="Javascript" />
-            <img src="images/about/about_img_04.svg" alt="FIGMA" />
-            <img src="images/about/about_img_05.svg" alt="Bootstrap" />
-            <img src="images/about/about_img_06.svg" alt="Photoshop" />
-            <img src="images/about/about_img_07.svg" alt="Illustrator" />
-            <img src="images/about/about_img_08.svg" alt="Adobe XD" />
-            <img src="images/about/about_img_09.svg" alt="jQuery" />
-          </div>
-          <div class="marquee__group">
-            <img src="images/about/about_img_01.svg" alt="HTML" />
-            <img src="images/about/about_img_02.svg" alt="CSS" />
-            <img src="images/about/about_img_03.svg" alt="Javascript" />
-            <img src="images/about/about_img_04.svg" alt="FIGMA" />
-            <img src="images/about/about_img_05.svg" alt="Bootstrap" />
-            <img src="images/about/about_img_06.svg" alt="Photoshop" />
-            <img src="images/about/about_img_07.svg" alt="Illustrator" />
-            <img src="images/about/about_img_08.svg" alt="Adobe XD" />
-            <img src="images/about/about_img_09.svg" alt="jQuery" />
-          </div>
-        </div>
-      </section>
-      <section id="work" class="work__wrap">
-        <div class="work__inner">
-          <h2 data-aos="fade-in">WORK</h2>
-          <div class="">
-            <ul class="work__list">
-              <li> 
-                <a href="https://www.notion.so/LG-291d37e7373c80778f84e70d42a1ff97?source=copy_link" target="_blank"  >
-                  <img
-                          src="images/work/work_lg_membership.png"
-                          alt="LG전자멤버쉽 App 리뉴얼"
-                  />
-                </a>
-                <div class="work__txt">
-                  <h5>LG전자멤버쉽 App 리뉴얼</h5>
-                  <p>Web | 퍼블리싱 · JSP · 반응형</p>
+        <div class="cursor">
+            <div class="img-box">
+                <div id="img1" class="image">
+                    <img src="images/project/project_1.png" alt />
                 </div>
-              </li>
-              <li> 
-                <a href="https://www.notion.so/LG-291d37e7373c8046a76fe031e5b33c2c?source=copy_link" target="_blank"  >
-                  <img
-                          src="images/work/work_lg_benefit.png"
-                          alt="LG전자 이벤트 리뉴얼"
-                  />
-                </a>
-                <div class="work__txt">
-                  <h5>LG전자 이벤트 페이지 리뉴얼</h5>
-                  <p>Web | 퍼블리싱 · JSP · 반응형</p>
+                <div id="img2" class="image">
+                    <img src="images/project/project_2.png" alt />
                 </div>
-              </li>
-              <li>
-                <a
-                  href="https://www.notion.so/2023-291d37e7373c8169aa1fc80a87896223?source=copy_link"
-                  target="_blank"
-                >
-                  <img
-                    src="images/work/work_imokorea.png"
-                    alt="회사 홈페이지 리뉴얼"
-                  />
-                </a>
-                <div class="work__txt">
-                  <h5>아이엠오 기업 홈페이지 리뉴얼</h5>
-                  <p>Web | 퍼블리싱 · 반응형</p>
+                <div id="img3" class="image">
+                    <img src="/images/project/project_3.png" alt />
                 </div>
-              </li>
-              <li>
-                <a
-                  href="https://www.notion.so/291d37e7373c81a9817eca91278d946a?source=copy_link"
-                  target="_blank"
-                >
-                  <img
-                    src="images/work/work_kko.png"
-                    alt="대시보드 관리자 페이지"
-                  />
-                </a>
-                <div class="work__txt">
-                  <h5>카카오톡 관리자 센터</h5>
-                  <p>Web | 퍼블리싱 · 대시보드 · Semantic-UI</p>
+                <div id="img4" class="image">
+                    <img src="images/project/project_4.png" alt />
                 </div>
-              </li>
-              <li>
-                <a
-                  href="https://www.notion.so/SOC-291d37e7373c810dbc60dae2ac937a94?source=copy_link"
-                  target="_blank"
-                >
-                  <img
-                    src="images/work/work_soc.png"
-                    alt="대시보드 모니터링 사이트"
-                  />
-                </a>
-                <div class="work__txt">
-                  <h5>SOC 관련 시설물 모니터링</h5>
-                  <p>Web | 디자인 · 퍼블리싱 · 대시보드 · Bootstrap</p>
+                <div id="img5" class="image">
+                    <img src="images/project/project_5.png" alt />
                 </div>
-              </li>
-              <li>
-                <a
-                  href="https://www.notion.so/2020-28fd37e7373c8127b5a3c0d97c11cfc0?source=copy_link" 
-                  target="_blank"
-                >
-                  <img
-                    src="images/work/work_mirae.png"
-                    alt="회사 홈페이지"
-                  />
-                </a>
-                <div class="work__txt">
-                  <h5>미래시티 기업 홈페이지 리뉴얼</h5>
-                  <p>Web | 디자인 · 퍼블리싱 · 풀페이지 · 반응형</p>
+                <div id="img6" class="image">
+                    <img src="images/project/project_6.png" alt />
                 </div>
-              </li>
-              <li>
-                <a
-                  href="https://www.notion.so/SH-28fd37e7373c81ba9607d8f7628a4365?source=copy_link"
-                  target="_blank"
-                >
-                  <img
-                    src="images/work/work_SH.png"
-                    alt="SH 서울주택도시 모니터링 사이트"
-                  />
-                </a>
-                <div class="work__txt">
-                  <h5>SH 서울주택도시공사</h5>
-                  <p>Web | 디자인 · 퍼블리싱 · 대시보드 · 풀페이지 · 반응형 · Bootstrap</p>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <section id="project" class="project_wrap">
-        <div class="projet__inner">
-          <h2 data-aos="fade-in">PROJECT</h2>
-          <div class="">
-            <ul class="projet__list">
-              <li data-aos="fade-up">
-                <a
-                  href="https://www.notion.so/3D-PANORAMA-28fd37e7373c8141b5cbdec5ac526d89?source=copy_link"
-                  data-img="#img5"
-                  target="_blank"
-                >
-                  <figure class="img__box">
-                    <img src="images/project/project_6.png" alt="PANORAMA" />
-                  </figure>
-                  <div class="projet__text">
-                    <h5>PANORAMA(3D)</h5>
-                    <p class="hash">
-                      <span>#3D</span>
-                      <span>#CSS</span>
-                      <span>#JS</span>
-                      <span>#인터랙티브</span>
-                    </p>
-                    <p class="desc">2024</p>
-                  </div>
-                </a>
-              </li>
-              <li data-aos="fade-up">
-                <a
-                  href="https://www.notion.so/MUSIC-PLAYER-28fd37e7373c81c5aacaeb5aaaf08868?source=copy_link"
-                  data-img="#img4"
-                  target="_blank"
-                >
-                  <figure class="img__box">
-                    <img src="images/project/project_5.png" alt="MUSIC PLAYER" />
-                  </figure>
-                  <div class="projet__text">
-                    <h5>MUSIC PLAYER</h5>
-                    <p class="hash">
-                      <span>#3D</span>
-                      <span>#CSS</span>
-                      <span>#JS</span>
-                      <span>#인터랙티브</span>
-                    </p>
-                    <p class="desc">2024</p>
-                  </div>
-                </a>
-              </li>
-              <li data-aos="fade-up">
-                <a
-                  href="https://www.notion.so/SORO-GSAP-28fd37e7373c818baef8e569864cd5f8?source=copy_link"
-                  data-img="#img3"
-                  target="_blank"
-                >
-                  <figure class="img__box">
-                    <img src="images/project/project_4.png" alt="SORO" />
-                  </figure>
-                  <div class="projet__text">
-                    <h5>SORO</h5>
-                    <p class="hash">
-                      <span>#GSAP</span>
-                      <span>#Clone</span>
-                      <span>#인터랙티브</span>
-                      <span>#반응형</span>
-                    </p>
-                    <p class="desc">2024</p>
-                  </div>
-                </a>
-              </li>
-              <li data-aos="fade-up">
-                <a
-                  href="https://www.notion.so/Qude-GSAP-28fd37e7373c8117a8d4d8e4084320c6?source=copy_link"
-                  data-img="#img2"
-                  target="_blank"
-                >
-                  <figure class="img__box">
-                    <img src="images/project/project_3.png" alt="Qude" />
-                  </figure>
-                  <div class="projet__text">
-                    <h5>Qude</h5>
-                    <p class="hash">
-                      <span>#GSAP</span>
-                      <span>#Clone</span>
-                      <span>#인터랙션</span>
-                    </p>
-                    <p class="desc">2024</p>
-                  </div>
-                </a>
-              </li>
-              <li data-aos="fade-up">
-                <a
-                  href="https://www.notion.so/K-ACE-LAB-28fd37e7373c812faf46d40291335927?source=copy_link"
-                  data-img="#img1"
-                  target="_blank"
-                >
-                  <figure class="img__box">
-                    <img src="images/project/project_2.png" alt="K.ACE LAB" />
-                  </figure>
-                  <div class="projet__text">
-                    <h5>K.ACE LAB</h5>
-                    <p class="hash">
-                      <span>#SCSS</span>
-                      <span>#GSAP</span>
-                      <span>#Clone</span>
-                      <span>#반응형</span>
-                    </p>
-                    <p class="desc">2024</p>
-                  </div>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <section id="contact" class="footer__wrap">
-        <footer class="contact__center">
-          <div class="footer__inner">
-            <div class="contact__txt_1">
-              <p
-                data-aos="fade-up"
-                data-aos-easing="linear"
-                data-aos-duration="500"
-              >
-                함께 일할 웹 퍼블리셔를 찾고 계신가요?
-              </p>
-            </div>
-            <div class="contact">
-              <p class="word">greedy0111@naver.com</p>
-            </div>
-            <div
-              class="contact__txt_2"
-              data-aos="fade-up"
-              data-aos-easing="linear"
-              data-aos-duration="1000"
-            >
-              <p class="mb20">
-                저에게 궁금한 점이 있으시다면 연락해 주세요. <br class="m-block"/>
-                빠르게 답장 드리겠습니다!
-              </p>
-              <a href="mailto:greedy0111@naver.com" class="shortcut__arrow"
-                >메일보내기 <i class="fa-solid fa-circle-chevron-right"></i
-              ></a>
-            </div>
-            <div class="copyright">
-              <p class="copyright__txt">
-              Made by <span class="copyright__author">Hyunjun-kim</span> with © 2025 greedy0111.github.io/Hyumjun-Kim
-              </p>
-              <ul class="link__box">
-                <li>
-                  <a
-                    href="https://www.notion.so/28fd37e7373c8051be94eeb6a352b5d7?source=copy_link"
-                    target="_blank"
-                    >RESUME</a
-                  >
-                </li>
-                <li>
-                  <a href="https://github.com/greedy0111" target="_blank"
-                    >GITHUB</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-        </footer>
-      </section>
-      <a
-        class="return-top"
-        href="javascript:;"
-        onclick="scrollIntoStart('main')"
-        ><span class="hidden">RETURN TOP</span
-        ><i class="fa-solid fa-arrow-up-long"></i
-      ></a>
-    </div>
-    <div class="cursor">
-        <div class="img-box">
-            <div id="img1" class="image">
-                <img src="images/project/project_1.png" alt>
-            </div>
-            <div id="img2" class="image">
-                <img src="images/project/project_2.png" alt>
-            </div>
-            <div id="img3" class="image">
-                <img src="/images/project/project_3.png" alt>
-            </div>
-            <div id="img4" class="image">
-                <img src="images/project/project_4.png" alt>
-            </div>
-            <div id="img5" class="image">
-                <img src="images/project/project_5.png" alt>
-            </div>
-            <div id="img6" class="image">
-                <img src="images/project/project_6.png" alt>
             </div>
         </div>
-    </div>
-    <script type="text/javascript" src="js/common.js"></script>
-  </body>
+        <script type="text/javascript" src="js/common.js"></script>
+    </body>
 </html>
